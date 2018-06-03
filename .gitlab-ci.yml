@@ -1,0 +1,10 @@
+stages:
+  - test
+
+test:p2p-test-network-ubuntu-preloaded:
+  stage: test 
+  tags:
+    - preloaded-ubuntu1804 
+
+  script:
+    - echo "Hello World!"
